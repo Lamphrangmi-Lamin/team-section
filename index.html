@@ -25,7 +25,8 @@
   </head>
   <body class="bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB]">
     <!-- Add your site or application content here -->
-     <section class="bg-white absolute inset-4 grid grid-cols-4 gap-x-4 px-4 py-12 auto-rows-min gap-y-12 overflow-auto">
+     <section class="bg-white absolute inset-4 grid grid-cols-4 gap-x-4 px-4 py-12 auto-rows-min gap-y-12 overflow-auto
+     md:py-16">
       <header class="col-span-4">
         <div class="mb-5">
           <span class=" text-center block col-span-4 text-indigo-700 font-semibold mb-3">
@@ -39,8 +40,10 @@
       </header>
 
       <!-- List of team members -->
-       <ul class="col-span-4 space-y-12">
-        <li>
+       <ul class="col-span-4
+       grid grid-cols-4 gap-y-12
+       md:gap-x-8">
+        <li class="col-span-4 md:col-span-2">
           <article>
             <img class="h-[296px] w-full object-cover mb-6" src="./img/joe.jpg" alt="Joe Jackson, Founder & CEO">
             <h3 class="text-neutral-900 text-xl font-semibold mb-1">Joe Jackson</h3>
@@ -51,7 +54,7 @@
           </article>
         </li>
 
-        <li>
+        <li class="col-span-4 md:col-span-2">
           <article>
             <img class="h-[296px] w-full object-cover mb-6" src="./img/ash.png" alt="Ash Karter, Founder & CFO">
             <h3 class="text-neutral-900 text-xl font-semibold mb-1">Ash Karter</h3>
@@ -62,7 +65,7 @@
           </article>
         </li>
 
-        <li>
+        <li class="col-span-4 md:col-span-2">
           <article>
             <img class="h-[296px] w-full object-cover mb-6" src="./img/farias.png" alt="Farias Amed, Front End AI Engineer">
             <h3 class="text-neutral-900 text-xl font-semibold mb-1">Farias Amed</h3>
@@ -73,7 +76,7 @@
           </article>
         </li>
 
-        <li>
+        <li class="col-span-4 md:col-span-2">
           <article>
             <img class="h-[296px] w-full object-cover mb-6" src="./img/sarah.png" alt="Sarah Haust, Dev Ops">
             <h3 class="text-neutral-900 text-xl font-semibold mb-1">Sarah Haust</h3>
